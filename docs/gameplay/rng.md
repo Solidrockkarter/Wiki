@@ -39,6 +39,7 @@ This document will describe what is standardized based on RNG Seed.
 - Direction changes are standardized within each phase
 - Strafes are standardized
 - Perches are standardized
+  - Perches are standardized based on amount of crystals broken. IE: If both players break 0 or 8 crystals, perches will be the same. If one player breaks 0 crystals and the other breaks 8, the player who broke 8 will get a faster perch on average.
   ::: details Strafe/perch standardization details
   When the dragon spawns and after each strafe, a standardized random number between 0 and 1 is chosen. The dragon strafes when the cumulative probability of having not yet strafed drops below the random number.
 
